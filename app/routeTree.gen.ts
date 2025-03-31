@@ -19,6 +19,7 @@ const IndexRoute = IndexImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRoute,
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
 } as any)
 
 // Populate the FileRoutesByPath interface
